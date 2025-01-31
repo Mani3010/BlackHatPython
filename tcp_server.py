@@ -1,6 +1,6 @@
 import socket
 import threading
-ip="192.168.80.128"
+ip=""
 port=5001
 def handle_client(client_socket):
     with client_socket as sock:

@@ -1,5 +1,5 @@
 import socket
-target_host="172.22.53.181"
+target_host=""
 target_port=5001
 client=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 client.connect((target_host,target_port))
